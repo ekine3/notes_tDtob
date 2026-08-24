@@ -14,4 +14,12 @@ Installation:
 Usage:
 > hw-probe -all -upload  
 
-## Newofetch
+## Newofetch  
+This appears in ubuntu based distributions after the deprecated neofetch. Available in Kubuntu.  
+> apt-get install -y newofetch  
+
+## Fastfetch
+Is a feature rich system information tool, similar to *neofetch*. Available in Manjaro.  
+> pacman -S fastfetch; fastfetch    
+
+
