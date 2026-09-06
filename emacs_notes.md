@@ -37,9 +37,16 @@ emacs --version
 Commands usually involve the *control* key labeled as *CTRL* and the *Meta* key, *ALT*, and tehir abreviations *C-chr* and *M-chr*.  
 To view the next screen *C-v*, to vie the previous screen *M-v*,there is a two line overlap between screens for continuity porpuses.  
 
-Clear screeen and redisplay all text *C-l*, first instance of this command center the paragraph in the screen, second try move it to the top and a third one moves it to the bottom.  
+Clear screeen and redisplay all text *C-l*, first instance of this command center the paragraph in the screen, second try move it to the top and a third one moves it to the bottom. The location of the cursor in a text is called **point**, shows where you are located in the text.  
 
-The movement of the arrows is also possible with *C-p* up, *C-n* down, *C-b* left and *C-f* right.  
+The movement of the arrows is also possible with *C-p* up, *C-n* down, *C-b* left and *C-f* right (Command previous, next, backwards and forward). 
+This movement set up can be speed up using M, moving by words instead of characters (just available for backwads and forward, *M-b* and *M-f*).  
+
+To move to the beginning of a line use *C-a* and *C-e* to get to the end of a line. To move to the beginning of a sentence use *M-a* and *M-e* to the end of a sentence. 
+And use *M-<* to move to the beginning of the whole document and *M->* to the end of the whole document.  
+
+
+
 
 # Session  
 To end the emacs session type *C-x C-c*, two characters.  
