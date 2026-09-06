@@ -51,8 +51,8 @@ Most commands accept numeric arguments, this serves as a repeat count; these are
 ## Cancel commands  
 You can stop commands frozen or that are taking too long to execute using *C-g*, this also works to scape incomplete commands or cancel *ESC* key.  
 
-## Delete  
-To delete text we can use 
+## Deleting  
+To delete text we can use *d* and the *del* key to delete the text next and before the cursor; we can combine this two keys with *C* for characters, *M* for words and *C-k* for the end of the line and *M-k* for the end of the sentence.
 
 # Visual mode  
 
@@ -71,7 +71,7 @@ To delete text we can use
 |Kill the word before the cursor|M|del||
 |Kill the word next the cursor|M|d||
 |Kill from the point to the end of line|C|k||
-|Kill from the point to the end of line|M|k||
+|Kill from the point to the end of sentence|M|k||
 
 # Session  
 To end the emacs session type *C-x C-c*, two characters.  
