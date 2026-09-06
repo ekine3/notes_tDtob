@@ -51,6 +51,8 @@ Most commands accept numeric arguments, this serves as a repeat count; these are
 ## Cancel commands  
 You can stop commands frozen or that are taking too long to execute using *C-g*, this also works to scape incomplete commands or cancel *ESC* key.  
 
+## Delete  
+
 ## Cheat page  
 
 |Action|Command|Key|Notes|  
@@ -62,6 +64,11 @@ You can stop commands frozen or that are taking too long to execute using *C-g*,
 |Move to the end of a line|C|e||
 |Quit a partially entered command|C|g||
 |End emacs session|C|xc||
+|Delete the next character|C|d||
+|Kill the word before the cursor|M|del||
+|Kill the word next the cursor|M|d||
+|Kill from the point to the end of line|C|k||
+|Kill from the point to the end of line|M|k||
 
 # Session  
 To end the emacs session type *C-x C-c*, two characters.  
