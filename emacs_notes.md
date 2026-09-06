@@ -24,6 +24,15 @@ apt-get install emacs
 emacs --version   
 ```
 ![GNU Emacs 27,1 cairo version, running in Debian 11, WSL2. Installation through apt, version check and GTK emulation.](https://files.mastodon.social/media_attachments/files/117/226/095/014/532/222/original/efdd9ed37322c77f.png)
+
+GNU Emacs 30.2 package in Arch based distros. Installation in Manjaro, xfce4 terminal using pacman  
+```Emacs using pacman
+pacman -Syu emacs
+pacman -Ss emacs
+emacs --version
+```
+![Gnu emacs in Manjaro](https://files.mastodon.social/media_attachments/files/117/226/278/893/743/743/original/58c5c26f41b37605.png)
+
 ## Navigation  
 Commands usually involve the *control* key labeled as *CTRL* and the *Meta* key, *ALT*, and tehir abreviations *C-chr* and *M-chr*.  
 To view the next screen *C-v*, to vie the previous screen *M-v*,there is a two line overlap between screens for continuity porpuses.  
@@ -39,8 +48,4 @@ To stop the tutorial *C-x k* then *Return*.
 
 ## References  
 * Wikipedia (2026). *Emacs*.   
-    * <https://en.wikipedia.org/wiki/Emacs>  
- 
-* Wikipedia (2026). *Emacs*.   
-    * <https://en.wikipedia.org/wiki/Emacs>  
- 
+    * <https://en.wikipedia.org/wiki/Emacs>   
