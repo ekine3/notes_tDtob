@@ -52,6 +52,9 @@ Most commands accept numeric arguments, this serves as a repeat count; these are
 You can stop commands frozen or that are taking too long to execute using *C-g*, this also works to scape incomplete commands or cancel *ESC* key.  
 
 ## Delete  
+To delete text we can use 
+
+# Visual mode  
 
 ## Cheat page  
 
@@ -63,7 +66,7 @@ You can stop commands frozen or that are taking too long to execute using *C-g*,
 |Move to the beginning of a line|C|a||
 |Move to the end of a line|C|e||
 |Quit a partially entered command|C|g||
-|End emacs session|C|xc||
+|End emacs session|C|xc|two commands|
 |Delete the next character|C|d||
 |Kill the word before the cursor|M|del||
 |Kill the word next the cursor|M|d||
