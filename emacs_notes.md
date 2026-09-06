@@ -56,13 +56,12 @@ You can stop commands frozen or that are taking too long to execute using *C-g*,
 |Action|Command|Key|Notes|  
 | --- | --- | --- | --- | 
 |Cancel command|C|g||  
-
 |Go the beginning of the document|M|<||  
 |Go the end of the document|M|>||  
-|Move to the beginning of a line|C|a|
-|Move to the end of a line|C|e|
-|Quit a partially entered command|C|g|
-|End emacs session|C|xc|
+|Move to the beginning of a line|C|a||
+|Move to the end of a line|C|e||
+|Quit a partially entered command|C|g||
+|End emacs session|C|xc||
 
 # Session  
 To end the emacs session type *C-x C-c*, two characters.  
