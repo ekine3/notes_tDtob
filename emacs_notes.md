@@ -45,6 +45,24 @@ This movement set up can be speed up using M, moving by words instead of charact
 To move to the beginning of a line use *C-a* and *C-e* to get to the end of a line. To move to the beginning of a sentence use *M-a* and *M-e* to the end of a sentence. 
 And use *M-<* to move to the beginning of the whole document and *M->* to the end of the whole document.  
 
+## Numeric arguments, prefix arguments
+Most commands accept numeric arguments, this serves as a repeat count; these are also called *prefix arguments*, because you type the argument before the command it applies to.  
+
+## Cancel commands  
+You can stop commands frozen or that are taking too long to execute using *C-g*, this also works to scape incomplete commands or cancel *ESC* key.  
+
+## Cheat page  
+
+|Action|Command|Key|Notes|  
+| --- | --- | --- | --- | 
+|Cancel command|C|g||  
+
+|Go the beginning of the document|M|<||  
+|Go the end of the document|M|>||  
+|Move to the beginning of a line|C|a|
+|Move to the end of a line|C|e|
+|Quit a partially entered command|C|g|
+|End emacs session|C|xc|
 
 # Session  
 To end the emacs session type *C-x C-c*, two characters.  
