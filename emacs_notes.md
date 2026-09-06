@@ -46,8 +46,6 @@ To move to the beginning of a line use *C-a* and *C-e* to get to the end of a li
 And use *M-<* to move to the beginning of the whole document and *M->* to the end of the whole document.  
 
 
-
-
 # Session  
 To end the emacs session type *C-x C-c*, two characters.  
 To quit a partially entered command *C-g*.  
