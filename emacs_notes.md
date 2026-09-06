@@ -1,11 +1,29 @@
-# Emacs  
-"Edit Macros" is a family of text editors that are characterized by their extensibility. The most widely used variant is **GNU Emacs**. It is considered a plain text computing environment. 
-It has more than 10k built in commands, most emacs implementations feature a dialect of *Lisp* programming Language, allowing users to write new commands and applications for the editor. Some extension have been written to manage files, remote access, email, Git integration, RSS feeds and collaborative editing.  
+# Emacs notes  
+ediaz  
 
-The original emacs was developed in 1976 at MIT as Editor Macros for the TECO editor.  
+## What is Emacs?  
+Originally named *EMACS* as an acronym for "Editor Macros", is a family of text editor characterized by their extensibility. 
+Emacs has over ten thousand built int commands and its interface allows users to combine theses commands into macros to automate work, some implementations typically feature a dialect of the *Lisp* programming language allowing users to write new commands and applications for the editor..  
 
-GNU Emacs and Vi, are the two main contenders in the "editor wars" of Unix culture.  
+The most popular and most ported version is GNU Emacs, created for the GNU project. GNU Emacs and Vi are the two main contenders in the traditional editor wars of Unix culture.  
 
+## How to get the application  
+We can install the application in Windows 11 using their native package manager:  
+```EmacsId
+winget search emacs  
+winget show GNU.Emacs
+winget install GNU.Emacs    
+```
+![GNU Emacs 31.1 available in Windows Package Manager (winget).  Version, publisher, description license, tags and installer information using "show" command.](https://files.mastodon.social/media_attachments/files/117/225/813/474/064/628/original/4b93805eb110e81c.png)
+
+We can get this application in Debian based distros using *apt*:  
+```Installing Emacs in debian
+apt-get -y update  
+apt-cache search --names-only emacs  
+apt-get install emacs  
+emacs --version   
+```
+![GNU Emacs 27,1 cairo version, running in Debian 11, WSL2. Installation through apt, version check and GTK emulation.](https://files.mastodon.social/media_attachments/files/117/226/095/014/532/222/original/efdd9ed37322c77f.png)
 ## Navigation  
 Commands usually involve the *control* key labeled as *CTRL* and the *Meta* key, *ALT*, and tehir abreviations *C-chr* and *M-chr*.  
 To view the next screen *C-v*, to vie the previous screen *M-v*,there is a two line overlap between screens for continuity porpuses.  
@@ -19,8 +37,10 @@ To end the emacs session type *C-x C-c*, two characters.
 To quit a partially entered command *C-g*.  
 To stop the tutorial *C-x k* then *Return*.
 
-
 ## References  
-* Wikipedia (2026). *Emacs*.  
-> <https://en.wikipedia.org/wiki/Emacs>  
-
+* Wikipedia (2026). *Emacs*.   
+    * <https://en.wikipedia.org/wiki/Emacs>  
+ 
+* Wikipedia (2026). *Emacs*.   
+    * <https://en.wikipedia.org/wiki/Emacs>  
+ 
