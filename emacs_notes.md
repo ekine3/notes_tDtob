@@ -52,9 +52,10 @@ Most commands accept numeric arguments, this serves as a repeat count; these are
 You can stop commands frozen or that are taking too long to execute using *C-g*, this also works to scape incomplete commands or cancel *ESC* key.  
 
 ## Deleting  
-To delete text we can use *d* and the *del* key to delete the text next and before the cursor; we can combine this two keys with *C* for characters, *M* for words and *C-k* for the end of the line and *M-k* for the end of the sentence.
+To delete text we can use *d* and the *del* key to delete the text next and before the cursor; we can combine this two keys with *C* for characters, *M* for words and *C-k* for the end of the line and *M-k* for the end of the sentence. To delete selected text use *C-space* and after that *C-w*.  
 
 # Visual mode  
+You can select text using *C-space* to select text and using navigation commands.
 
 ## Cheat page  
 
@@ -72,6 +73,9 @@ To delete text we can use *d* and the *del* key to delete the text next and befo
 |Kill the word next the cursor|M|d||
 |Kill from the point to the end of line|C|k||
 |Kill from the point to the end of sentence|M|k||
+|Delete selected text|C|w||
+|Select text|C|space||
+
 
 # Session  
 To end the emacs session type *C-x C-c*, two characters.  
