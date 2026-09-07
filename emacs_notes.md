@@ -54,11 +54,28 @@ You can stop commands frozen or that are taking too long to execute using *C-g*,
 ## Deleting  
 To delete text we can use *d* and the *del* key to delete the text next and before the cursor; we can combine this two keys with *C* for characters, *M* for words and *C-k* for the end of the line and *M-k* for the end of the sentence. To delete selected text use *C-space* and after that *C-w*.  
 
-# Visual mode  
+## Visual mode  
 You can select text using *C-space* to select text and using navigation commands.
 
-## Cheat page  
+## Undo changes
+To undo changes we can use *C-/* (command plus slash), command that do not change the text can't be undone. *C-_* works the same and works as an alternative in some text terminals. 
 
+## Search  
+Emacs can do searches for strings either forward or backwards through the text. *C-s* does forward search and *C-r* does reverse search. The name of the command is "incremental", when you start *C-s* "I-search" appears as prompt in the echo area, then you can enter the search character by character; new instances of *C-s* shows the next coincidence of the search and *Return* terminates the command. 
+
+## Copy and yank
+In some instances of Emacs the command to yank text is *M-w* and *C-y* to paste. I did noticed that in GNU Emacs built in tutorial the commands are inverted, maybe it's an error in the version of GUI I have or something else.
+
+## Save files  
+
+
+# Session  
+To end the emacs session type *C-x C-c*, two characters.  
+To quit a partially entered command *C-g*.  
+To stop the tutorial *C-x k* then *Return*.
+
+
+## Cheat page  
 |Action|Command|Key|Notes|  
 | --- | --- | --- | --- | 
 |Cancel command|C|g||  
@@ -75,12 +92,14 @@ You can select text using *C-space* to select text and using navigation commands
 |Kill from the point to the end of sentence|M|k||
 |Delete selected text|C|w||
 |Select text|C|space||
+|Search|C|s|Return key terminates the search|
+|Undo changes|C|/||
+|Yank or copy text|M|w||
+|Paste text|C|y||
+|Save file|C|xw|two commands|
+|Open file|C|xf|two commands|
+|Exit emacs|C|xc|two commands|
 
-
-# Session  
-To end the emacs session type *C-x C-c*, two characters.  
-To quit a partially entered command *C-g*.  
-To stop the tutorial *C-x k* then *Return*.
 
 ## References  
 * Wikipedia (2026). *Emacs*.   
