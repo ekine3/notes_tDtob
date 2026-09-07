@@ -103,4 +103,7 @@ To stop the tutorial *C-x k* then *Return*.
 
 ## References  
 * Wikipedia (2026). *Emacs*.   
-    * <https://en.wikipedia.org/wiki/Emacs>   
+    * <https://en.wikipedia.org/wiki/Emacs>
+
+* Sung Phil and Free Software Foundation (2026). *A guided tour of Emacs*.
+   * <https://www.gnu.org/software/emacs/tour/>
