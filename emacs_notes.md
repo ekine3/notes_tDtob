@@ -66,7 +66,8 @@ Emacs can do searches for strings either forward or backwards through the text. 
 ## Copy and yank
 In some instances of Emacs the command to yank text is *M-w* and *C-y* to paste. I did noticed that in GNU Emacs built in tutorial the commands are inverted, maybe it's an error in the version of GUI I have or something else.
 
-## Save files  
+## File management  
+To Open a file use *C-x* and *C-f*. To Save a file use *C-x* and *C-w*.
 
 
 # Session  
